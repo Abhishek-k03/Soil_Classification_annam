@@ -29,7 +29,6 @@ The dataset CSV files (`train_labels.csv` and `test_ids.csv`) and image folders 
 
 To run this project locally, install the required Python packages listed in `requirements.txt`:
 
-```bash
 pip install -r requirements.txt
 
 ## How to Run
@@ -61,4 +60,3 @@ Model checkpoints and early stopping callbacks can be added to improve training 
 Adjust batch size, epochs, and learning rates in the notebook as needed for your environment.
 
 The inference notebook assumes test images are located in the /kaggle/input/soil-classification/soil_classification-2025/test/ directory.
-```
